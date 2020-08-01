@@ -9,3 +9,16 @@
     font-style: italic;
     font-weight: 25px;
 }
+/* About us section */
+.aboutus>img{
+    size: cover;
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+}
+.aboutus{
+    text-align: center;
+    font-weight: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: inherit;
+}
