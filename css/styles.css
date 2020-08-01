@@ -1,8 +1,11 @@
 /* main section */
 .main{
-    background-image: url(../images/pizza1.jpg);
+    background-image: url(../images/pizza2.jpg);
     height: 80vh;
     background-size: cover;
     color: white;
     text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-weight: 25px;
 }
