@@ -9,16 +9,149 @@
 </head>
 <body>
     <div class="container">
+        <div class="nav">
+               <a href="#About">About us</a>
+               <a href="#menu">Menu</a>
+               <a href="#order">Order</a>
+               <a href="#contact">Contacts</a>
+        </div>
         <div class="jumbotron main">
             <h1>ANDIWO PIZZA PALACE</h1>
             <p>My favorite food is pepperoni pizza. When I smell a saucy, <br>cheesy, spicy pizza baking in the oven, I can hardly wait to <br>get my hands under a soft, warm slice. <br>I cannot bear not sinking my teeth into the gooey, <br>doughy thick crust pizza, cannot stand to <br>have the round, red little <br>pepperonis taunting me.</p>
         </div>
-        <div class="aboutus">
-            <h3>ABOUT US</h3>
-            <img src="images/pizza3.jpg">
+        <div id="About" class="aboutus">
+            <h3>ABOUT US</h3>            
             <p>Andiwo Pizza Palace might be one of the most recognisable icons of Kibera.<br> Whichever way you slice it, Andiwo Pizza Palace is an industry leader<br> in the quick service pizza game. The 1rst Andiwo Pizza Palace<br> outlet opened its doors in 2018 in Kibera, Nairobi, and rose quickly<br> in popularity. Serving hot oven-fresh pizza with its signature <br>all-natural tomato sauce and using only the freshest ingredients, <br>it has established itself at the top of the industry and is easily <br>one of the first choices in quick service pizza in Kenya.</p>
         </div>
+        <div class="menu" id="menu">
+            <h2>Our menu</h2>
+            <div class="row">
+                <div class="col-md-3 p-2">
+                    <div class="mm1">
+                    <img src="images/flavor1.jpg" alt="pepperoni" height="100%" width="100%">
+                    <div class="text1">
+                       <p class="k">Papperoni<br>flavor</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="mm2">
+                    <img src="images/pizza01.jpg" alt="mushroom" height="100%" width="100%">
+                    <div class="text2">
+                        <p class="k">Mushroom<br>flavor</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="mm3">
+                    <img src="images/flavor3.jpg" alt="sausage" height="100%" width="100%">
+                    <div class="text3">
+                        <p class="k">Sausage <br>flavor</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="mm4">
+                    <img src="images/pizza02.jpg" alt="tomatoes" height="100%" width="100%">
+                    <div class="text4">
+                        <p class="k">Tomatoe<br>flavor</p>
+                    </div>
+                    </div>
+                </div>
+            </div>         
+            <div class="row">
+                <div class="col-md-3 p-2">
+                    <div class="mm5">
+                    <img src="images/green.jpg" alt="green perper" height="100%" width="100%">
+                    <div class="text5">
+                        <p class="k">Green <br>perper</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="mm6">
+                    <img src="images/pizza03.jpg" alt="pinaple" height="100%" width="100%">
+                    <div class="text6">
+                        <p class="k">Pinnaple<br>flavor</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="mm7">
+                    <img src="images/pizza1.jpg" alt="Onions" height="100%" width="100%">
+                    <div class="text7">
+                        <p class="k">Onion<br>flavor</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="mm8">
+                    <img src="images/pizza04.jpg" alt="cheese" height="80%" width="100%">
+                    <div class="text8">
+                        <p class="k">cheese<br>flavor</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="orders" id="order">
+            <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+            <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 order-overlay text-center">
+                    <form class="col-sm-6 offset-sm-3 text-center">
+                        <label>Pick your pizza Flavour:</label>
+                        <select class="custom-select custom-select-md mb-3 flavour" required>
+                            <option value="peperoni">Peperoni</option>
+                            <option value="chicken">Chicken</option>
+                            <option value="mushroom">Musroom</option>
+                            <option value="sausage">Sausage</option>
+                            <option value="boerewors">Boerewors</option>
+                            <option value="hawaiian">Hawaiian</option>
+                            <option value="mushroom">Chicken and Mushroom</option>
+                            <option value="regina">Regina Pizza</option>
+                        </select>
+                        <label>Chose your preferred Size:</label>
+                        <select class="custom-select custom-select-md mb-3" id="size" required>
+                            <option value="regular">Regular</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <label for="crust">Choose your favorite Crust:</label>
+                        <select class="custom-select custom-select-md mb-3" id="crust" required>
+                            <option value="thin">Thin Crust @ Ksh. 100</option>
+                            <option value="thick">Thick Crust @ Ksh. 150</option>
+                            <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                            <option value="custom">Custom Crust @ sh. 280</option>
+                        </select>
+                        <label>Select Your favourite Toppings</label>
+                        <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                            <option value="tomato">Tomato @ sh. 80</option>
+                            <option value="onions">Onions @ sh. 80</option>
+                            <option value="mushroom">Mushroom @ sh. 80</option>
+                            <option value="greenpepper">Green Pepper @ sh. 80</option>
+                            <option value=""></option>
+                            <option value="olives">Olives @ sh. 120</option>
+                            <option value="pineapple">Pineapple @ sh. 120</option>
+                            <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+                            <option value="macon">Macon @ sh. 120</option>
+                            <option value="mince">Mince @ sh. 120</option>
+                            <option value=""></option>
+                            <option value="beef">Beef Peperoni @ sh. 170</option>
+                            <option value="chicken">Periperi Chicken @ sh. 170</option>
+                        </select>
+                        <label for="number">Number of Pizza's</label>
+                        <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+        
+        
+                    </form>
+                    <a href="#summary">
+                        <button type="submit" class="btn btn-success checkout" id="checkout">
+                            Checkout
+                        </button>
+                    </a>
     </div>
-    
+<script src="js/jquery-3.5.1.js"></script> 
+<script src="js/scripts.js"></script>
 </body>
 </html>
