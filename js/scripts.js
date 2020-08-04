@@ -72,7 +72,7 @@ $(document).ready(function() {
         function number() {
           var pizzaNumber = document.getElementById("number").value;
           return parseInt(pizzaNumber);
-        }       
+        }
         //a constructor to create objects/instances of a user's orders
         function Order(flavor, size, crust, topping, number) {
           this.newFlavor = flavor;
