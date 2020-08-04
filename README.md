@@ -1,5 +1,5 @@
 # Pizza-App
-[Live link](https://kamauvick.github.io/Pizza-App/)
+[Live link] https://andiwoedwin.github.io/Week4-project/)
 
 
 ## Description: 
@@ -8,7 +8,7 @@ A pizza ordering web application. It help studendts to learn more about javascri
 ## Author:
 Andiwo Edwin Ochieng
 ## Setup:
-`git clone https://` or download the zip file
+`git clone  https://andiwoedwin.github.io/Week4-project/` or download the zip file
 Extract the zip file
 
 `cd` project folder
